@@ -13,7 +13,7 @@ def display_results(dictionary: dict):
         val.grid(column=1, row=index, sticky="W")
 
     frame2 = tk.Frame(window)
-    bttn = tk.Button(frame2, text="Looks Good!", highlightbackground='#3E4149')
+    bttn = tk.Button(frame2, text="Looks Good! Add to Walk list.", highlightbackground='#3E4149')
     bttn.pack()
 
     frame1.pack()

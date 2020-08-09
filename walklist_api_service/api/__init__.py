@@ -1,0 +1,26 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from walklist_api_service.api.access_level_api import AccessLevelApi
+from walklist_api_service.api.animal_api import AnimalApi
+from walklist_api_service.api.animal_location_api import AnimalLocationApi
+from walklist_api_service.api.animal_type_api import AnimalTypeApi
+from walklist_api_service.api.assessment_api import AssessmentApi
+from walklist_api_service.api.colour_code_api import ColourCodeApi
+from walklist_api_service.api.comment_api import CommentApi
+from walklist_api_service.api.custom_content_api import CustomContentApi
+from walklist_api_service.api.enrichment_session_api import EnrichmentSessionApi
+from walklist_api_service.api.enrichment_type_api import EnrichmentTypeApi
+from walklist_api_service.api.evaluation_api import EvaluationApi
+from walklist_api_service.api.human_type_api import HumanTypeApi
+from walklist_api_service.api.location_api import LocationApi
+from walklist_api_service.api.person_api import PersonApi
+from walklist_api_service.api.ping_api import PingApi
+from walklist_api_service.api.special_need_api import SpecialNeedApi
+from walklist_api_service.api.special_need_behaviours_api import SpecialNeedBehavioursApi
+from walklist_api_service.api.user_api import UserApi
+from walklist_api_service.api.animal_group_api import AnimalGroupApi
+from walklist_api_service.api.metric_api import MetricApi
+from walklist_api_service.api.statistics_api import StatisticsApi

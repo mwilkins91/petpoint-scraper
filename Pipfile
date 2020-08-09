@@ -9,6 +9,8 @@ verify_ssl = true
 selenium = "*"
 chromedriver-autoinstaller = "*"
 python-dotenv = "*"
+six = "*"
+certifi = "*"
 
 [requires]
 python_version = "3.8"
